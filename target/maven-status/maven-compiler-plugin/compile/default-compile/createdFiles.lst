@@ -1,0 +1,4 @@
+com\asirtech\datahandler\CsvFileList.class
+com\asirtech\datahandler\DataHandlerApp.class
+com\asirtech\datahandler\DbConnection.class
+com\asirtech\datahandler\DataFeed.class
