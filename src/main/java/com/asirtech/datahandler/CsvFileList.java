@@ -78,12 +78,6 @@ public class CsvFileList {
 						Statement statement = con.createStatement();
 						int i=statement.executeUpdate(sql);
 								
-								
-//								+ line[0] + "INT"
-//								+ line[1] + "TEXT"
-//								+ line[2] + "TEXT"
-//								+ line[3]
-//								+ ")";
 						if(i==0) {
 							System.out.println("The table '" + tempFilename + "' created successfully.");
 							df.dataFeed(fileEntry, con);
